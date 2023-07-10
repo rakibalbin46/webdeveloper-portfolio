@@ -154,3 +154,28 @@ main {
   text-align: center;
   margin-top: 50px;
 }
+/*Footer styles */
+footer {
+  display: flex;
+  background-color: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 150px;
+  gap: 100px;
+}
+.social-media-links a {
+  margin-right: 25px;
+}
+.footer-column {
+  width: 50%;
+}
+.contact-form input[type="text"], .contact-form input[type=email], textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 15px 30px;
+  color: #757575;
+  border-radius: 5px;
+  background:#fff ;
+  border: 0;
+  width: 100%;
+}
+
